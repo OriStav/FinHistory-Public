@@ -26,7 +26,7 @@ def dist_presenter(tot_transactions,col = "Investment Duration", x_col="Average 
 
 
 def lines_presenter(tot_transactions,col = "Investment Duration",y_col_name = "Withdrawal Close"):
-    tot_transactions[col] = tot_transactions[col].round(0).astype(int)
+    tot_transactions[col] = tot_transactions[col].astype(int)
     checkbox_normalize = selections(tot_transactions)
     revenue_table, price_table = table_filter(tot_transactions)
     row_1 = st.columns(2)
