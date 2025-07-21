@@ -1,5 +1,7 @@
 # Stock Analysis Investment App
 
+Deployed demo: https://finhistory.streamlit.app
+
 ## Overview
 
 A comprehensive stock analysis tool built with Streamlit that provides statistical comparisons of historical stock performance from Yahoo Finance. The application helps investors analyze stock performance over different time periods and provides ranking systems to identify optimal investment opportunities.
