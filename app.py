@@ -9,7 +9,7 @@ from methods.charts_design import tables_presenter,lines_presenter,\
                                     dist_presenter,error_bander
 from methods.st_utils import choices_section
 
-st.set_page_config(layout="wide")
+st.set_page_config(layout="wide", page_title="FinHistory")
 
 st.markdown("""
 <div style="text-align: center;">
